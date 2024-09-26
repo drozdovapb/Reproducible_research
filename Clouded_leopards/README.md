@@ -31,6 +31,8 @@
 Правим заголовки в fasta, чтобы потом было удобнее:
 `cut -d ' ' -f 1,2,3 felidae_atp8.fa | sed -e 's/ /_/g' > felidae_atp8.renamed.fa`
 
+Данные продублированы в файле `felidae_atp8.fa`.
+
 Выравнивание: 
 `mafft --auto felidae_atp8.renamed.fa >felidae_atp8.aln`
 
@@ -46,7 +48,9 @@
 - Проверка качества сходимости в Tracer ­(GUI): в первую очередь проверяем ESS и trace для параметра tree height.
 - Получение единого консенсусного дерева в treeannotator (GUI).
 
-Строим деревья в R с помощью ggtree:
+Полученные деревья записаны в файлы `beauti_mrca-felidae_atp8.tree` и `beauti_rate-felidae_atp8.tree`.
+
+Строим деревья в R с помощью ggtree (скрипт отдельным файлом — `beast_tree.R`):
 ```{r}
 library(ggplot2)
 library(ggtree)
@@ -95,7 +99,6 @@ ggsave("tree_rate.png")
 
 ## Список литературы
 
+  - Buckley-Beason VA, Johnson WE, Nash WG, Stanyon R, Menninger JC, Driscoll CA, Howard J, Bush M, Page JE, Roelke ME, Stone G. Molecular evidence for species-level distinctions in clouded leopards. Current Biology. 2006 Dec 5;16(23):2371-6. [https://doi.org/10.1016/j.cub.2006.08.066]
   - Bursell MG, Dikow RB, Figueiró HV, Dudchenko O, Flanagan JP, Aiden EL, Goossens B, Nathan SK, Johnson WE, Koepfli KP, Frandsen PB. Whole genome analysis of clouded leopard species reveals an ancient divergence and distinct demographic histories. Iscience. 2022 Dec 22;25(12). [https://doi.org/10.1016/j.isci.2022.105647]
   - Yuan J, Wang G, Zhao L, Kitchener AC, Sun T, Chen W, Huang C, Wang C, Xu X, Wang J, Lu H. How genomic insights into the evolutionary history of clouded leopards inform their conservation. Science Advances. 2023 Oct 6;9(40):eadh9143. [https://doi.org/10.1126/sciadv.adh9143]
-  - Buckley-Beason VA, Johnson WE, Nash WG, Stanyon R, Menninger JC, Driscoll CA, Howard J, Bush M, Page JE, Roelke ME, Stone G. Molecular evidence for species-level distinctions in clouded leopards. Current Biology. 2006 Dec 5;16(23):2371-6. [https://doi.org/10.1016/j.cub.2006.08.066]
-
