@@ -1,0 +1,7 @@
+heat_shock  EveT24_1  SRR8206022
+heat_shock  EveT24_2  SRR8206023
+heat_shock  EveT24_4  SRR8205838
+control  EveB6_2  SRR8205839
+control  EveB6_1  SRR8205840
+control  EveB6_4  SRR8205845
+control  EveB6_3  SRR8205846
