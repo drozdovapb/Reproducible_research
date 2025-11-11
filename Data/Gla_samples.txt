@@ -1,0 +1,7 @@
+control  GlaB6_2  SRR8205843_1.fastq  SRR8205843_2.fastq
+control  GlaB6_1  SRR8205844_1.fastq  SRR8205844_2.fastq
+control  GlaB6_4  SRR8205847_1.fastq  SRR8205847_2.fastq
+control  GlaB6_3  SRR8205848_1.fastq  SRR8205848_2.fastq
+heat_shock  GlaT24_2  SRR8206019_1.fastq  SRR8206019_2.fastq 
+heat_shock  GlaT24_3  SRR8206020_1.fastq  SRR8206020_2.fastq
+heat_shock  GlaT24_4  SRR8206021_1.fastq  SRR8206021_2.fastq

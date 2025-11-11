@@ -1,0 +1,7 @@
+control  EcyB6_1  SRR8206017_1.fastq  SRR8206017_2.fastq
+control  EcyB6_2  SRR8206018_1.fastq  SRR8206018_2.fastq
+control  EcyB6_4  SRR8205841_1.fastq  SRR8205841_2.fastq
+control  EcyB6_3  SRR8205842_1.fastq  SRR8205842_2.fastq
+heat_shock  EcyT24_1  SRR8205996_1.fastq  SRR8205996_2.fastq 
+heat_shock  EcyT24_2  SRR8205997_1.fastq  SRR8205997_2.fastq
+heat_shock  EcyT24_4  SRR8205998_1.fastq  SRR8205998_2.fastq
