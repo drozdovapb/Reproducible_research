@@ -1,6 +1,6 @@
 heat_shock  EveT24_1  SRR8205837_1.fastq  SRR8205837_2.fastq 
 heat_shock  EveT24_2  SRR8205838_1.fastq  SRR8205838_2.fastq
-heat_shock  EveT24_4  SRR8206022_1.fastq  SRR8206022_2.fastq
+heat_shock  EveT24_3  SRR8206022_1.fastq  SRR8206022_2.fastq
 heat_shock  EveT24_4  SRR8206023_1.fastq  SRR8206023_2.fastq
 control  EveB24_3  SRR8205919_1.fastq  SRR8205919_2.fastq
 control  EveB24_4  SRR8205920_1.fastq  SRR8205920_2.fastq
